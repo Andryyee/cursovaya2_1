@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8"> <!-- Кодировка страницы-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Для совместимости с IE-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Для красивого отображения на мобильных устройствах-->
+        <title>Самые различные сладости</title> <!-- Заголовок страницы -->
+        <link rel="icon" type="image/png" href="main_icons/web_icon2.png">
+        <link rel="stylesheet" href="foreign_cat.css">
+    </head>
+    <body>
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+        
+            <ul class="menu__box">
+              <li><a href="index.html" id="webName">
+                <img src="main_icons/web_icon2.png" width="70" height="70" id="Header_img">
+                <b id="Header_img_text">Ведьмины сладости</b>
+                </a>
+                </li>
+                <li><a href="about_us.html"><i class="item" id="first"></i>О нас</a></li>
+                <li><a href="chocolad_catalogue.html">Шоколад</a></li>
+                <li id="subsecond"><a href="marmelad_catalogue.html">Мармелад</a></li>
+                <li id="subthird"><a href="cake_catalogue.html">Кондитерские изделия</a></li>
+                <li id="subfourth"><a href="foreign_catalogue.html">Зарубежные сладости</a></li>
+                <li><a href="contacts.html"><i class="item" id="third"></i>Контакты</a></li>
+                <li><a href="cart.html">Корзина</li>
+                <li><div class="content_icons">
+                    <a href="https://www.ozon.ru/" id="left_icon"><img src="main_icons/ozon_icon.png" whidth="40" height="40"></a>
+                    <p class="vert-line"></p>
+                    <a href="https://vk.com/id607815353"><img src="main_icons/vk_icon.png" whidth="30" height="30" id="vk_icon"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <header>
+            <nav class="menu">
+                <a href="index.html" id="webName">
+                    <img src="main_icons/web_icon2.png" width="70" height="70" id="Header_img">
+                    <b id="Header_img_text">Ведьмины сладости</b>
+                </a>
+                <ul class="items">
+                    <li><a href=""><i class="item" id="first"></i>О нас</a></li>
+                    <li class="item" id="second">Каталог
+                        <ul class="submenu">
+                            <li id="subfirst"><a href="chocolad_catalogue.html">Шоколад</a></li>
+                            <li id="subsecond"><a href="marmelad_catalogue.html">Мармелад</a></li>
+                            <li id="subthird"><a href="cake_catalogue.html">Кондитерские изделия</a></li>
+                            <li id="subfourth"><a href="foreign_catalogue.html">Зарубежные сладости</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contacts.html"><i class="item" id="third"></i>Контакты</a></li>
+                </ul>                     
+                <div class="content_icons">
+                    <a href="https://www.ozon.ru/" id="left_icon"><img src="main_icons/ozon_icon.png" whidth="40" height="40"></a>
+                    <p class="vert-line"></p>
+                    <a href="https://vk.com/id607815353"><img src="main_icons/vk_icon.png" whidth="30" height="30" id="vk_icon"></a>
+                </div>
+            </nav>
+            <a href="cart.html" id="cart_icon"><img src="cart_icon.png" width="50" height="50"></a> 
+            <input type="checkbox" id="burger">
+            <label for="burger"></label><br>
+        </header>
+        <main>
+            <div id="products"><h1>Зарубежные сладости</h1>
+                <div id = "japan"><h2>Японские сладости</h2><br>
+                    <div class="product" id="23">
+                        <h3>Моти</h3>
+                        <img src="foreign_images/moti.jpg" height="300" width="300" id="choc_img"> <br>
+                        <p>Моти - национальная японская сладость, представляющая из себя сладкую начинку из красных бобов, заключённую в нежную оболочку из рисового теста </p>
+                        <p id="priceText">Цена: <label id="price">550</label> рублей</p>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                    <div class="product" id="24">
+                        <h3>Данго</h3>
+                        <img src="foreign_images/dango.jpg" height="300" width="300" id="choc_img"> <br>
+                        <p>Данго - национальная японская сладость, представляющая из себя шарики из рисового теста, насаженные на деревянную палочку и политые сладким сиропом</p>
+                        <p id="priceText">Цена: <label id="price">550</label> рублей</p>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                </div>
+                <div id = "Tatar"><h2>Татарские сладости</h2><br>
+                    <div class="product" id="25">
+                        <h3>Чак-чак</h3>
+                        <img src="foreign_images/chak.jpg" height="300" width="300" id="choc_img"> <br>
+                        <p>Национальная татарская сладость, представляющая из себя множкство маленьких тестовых палочек, склеенных мёдом</p>
+                        <p id="priceText">Цена: <label id="price">550</label> рублей</p>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                    <div class="product" id="26">
+                        <h3>Чурчхела</h3>
+                        <img src="foreign_images/church.jpg" height="300" width="300" id="choc_img"> <br>
+                        <p>Чурчхела - сладость, представляющая из себя орехи, насаженные на нитку и залитые каким-либо фруктовым сиропом и застывшем</p>
+                        <p id="priceText">Цена: <label id="price">550</label> рублей</p>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                </div>
+            </div>
+            <p id="left_bord"></p>
+            <p id="right_bord"></p>
+        </main>
+    </body>
+</html>
