@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8"> <!-- Кодировка страницы-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Для совместимости с IE-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Для красивого отображения на мобильных устройствах-->
+        <title>Самые различные сладости</title> <!-- Заголовок страницы -->
+        <link rel="icon" type="image/png" href="main_icons/web_icon2.png">
+        <link rel="stylesheet" href="cake_cat.css">
+        <script src="script_for_cake.js"></script>
+    </head>
+    <body>
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+        
+            <ul class="menu__box">
+              <li><a href="index.html" id="webName">
+                <img src="main_icons/web_icon2.png" width="70" height="70" id="Header_img">
+                <b id="Header_img_text">Ведьмины сладости</b>
+                </a>
+                </li>
+                <li><a href="about_us.html"><i class="item" id="first"></i>О нас</a></li>
+                <li><a href="chocolad_catalogue.html">Шоколад</a></li>
+                <li id="subsecond"><a href="marmelad_catalogue.html">Мармелад</a></li>
+                <li id="subthird"><a href="cake_catalogue.html">Кондитерские изделия</a></li>
+                <li id="subfourth"><a href="foreign_catalogue.html">Зарубежные сладости</a></li>
+                <li><a href="contacts.html"><i class="item" id="third"></i>Контакты</a></li>
+                <li><a href="cart.html">Корзина</li>
+                <li><div class="content_icons">
+                    <a href="https://www.ozon.ru/" id="left_icon"><img src="main_icons/ozon_icon.png" whidth="40" height="40"></a>
+                    <p class="vert-line"></p>
+                    <a href="https://vk.com/id607815353"><img src="main_icons/vk_icon.png" whidth="30" height="30" id="vk_icon"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <header>
+            <nav class="menu">
+                <a href="index.html" id="webName">
+                    <img src="main_icons/web_icon2.png" width="70" height="70" id="Header_img">
+                    <b id="Header_img_text">Ведьмины сладости</b>
+                </a>
+                <ul class="items">
+                    <li><a href="about_us.html"><i class="item" id="first"></i>О нас</a></li>
+                    <li class="item" id="second">Каталог
+                        <ul class="submenu">
+                            <li id="subfirst"><a href="chocolad_catalogue.html">Шоколад</a></li>
+                            <li id="subsecond"><a href="marmelad_catalogue.html">Мармелад</a></li>
+                            <li id="subthird"><a href="cake_catalogue.html">Кондитерские изделия</a></li>
+                            <li id="subfourth"><a href="foreign_catalogue.html">Зарубежные сладости</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contacts.html"><i class="item" id="third"></i>Контакты</a></li>
+                </ul>                     
+                <div class="content_icons">
+                    <a href="https://www.ozon.ru/" id="left_icon"><img src="main_icons/ozon_icon.png" whidth="40" height="40"></a>
+                    <p class="vert-line"></p>
+                    <a href="https://vk.com/id607815353"><img src="main_icons/vk_icon.png" whidth="30" height="30" id="vk_icon"></a>
+                </div>
+            </nav>
+            <a href="cart.html" id="cart_icon"><img src="cart_icon.png" width="50" height="50"></a> 
+            <input type="checkbox" id="burger">
+            <label for="burger"></label><br>       
+        </header>
+        <main>
+            <div id="products">
+                <div id = "Cackes"><p style="font-size: 20px; font-weight: bold;">Торты.<br>Все торты делаются вручную, детали обсуждаются после оформления заказа по телефону.</p><br>
+                    <div class="product" id="13">
+                        <h3>Маленький торт.</h3>
+                        <img src="cacke_icons/small_cacke.jpg" height="300" width="300" id="cacke_img"> <br>
+                        <p>Маленький торт. Высота торта до 20 см<br></p>
+                        <p id="priceText">Цена: <label id="price">800-1600</label> рублей</p>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                    <div class="product" id="14">
+                        <h3>Средний торт.</h3>
+                        <img src="cacke_icons/medium_cake.jpg" height="300" width="300" id="cacke_img"> <br>
+                        <p>Средний торт. Высота торта до 50 см<br></p>
+                        <p id="priceText">Цена: <label id="price">2000-3000</label> рублей</p>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                    <div class="product" id="15">
+                        <h3>Большой торт.</h3>
+                        <img src="cacke_icons/big_cacke.jpg" height="300" width="300" id="cacke_img"> <br>
+                        <p>Большой торт. Высота торта до 2м<br></p>
+                        <p id="priceText">Цена: <label id="price">5000-10000</label> рублей</p>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                </div>
+                <div id = "Cr"><p>Круасаны.</p><br>
+                    <div class="product" id="16">
+                        <h3>Круасаны без начинки.</h3>
+                        <img src="cacke_icons/cr.jpeg" height="300" width="300" id="cacke_img"> <br>
+                        <p>Круасаны без начинки (10шт)<br></p>
+                        <p id="priceText">Цена: <label id="price">500</label> рублей</p>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                    <div class="product" id="17">
+                        <h3>Круасаны с шоколадом.</h3>
+                        <img src="cacke_icons/cr_image.jpeg" height="300" width="300" id="cacke_img"> <br>
+                        <p>Круасаны с шоколадом (10ши)<br></p>
+                        <p id="priceText">Цена: <label id="price">800</label> рублей</p>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                    <div class="product" id="18">
+                        <h3>Круасаны с карамелью</h3>
+                        <img src="cacke_icons/cr_image_car.jpg" height="300" width="300" id="cacke_img"> <br>
+                        <p>Круасаны с карамелью (10шт)</p>
+                        <p id="priceText">Цена: <label id="price">700</label> рублей</p>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                </div>
+                <div id = "Maff"><p>Мафины.</p><br>
+                    <div class="product" id="19">
+                        <h3>Мафины с шоколадом</h3>
+                        <img src="cacke_icons/chocmaf.jpg" height="300" width="300" id="cacke_img"> <br>
+                        <p>Мафины с шоколадом (5шт)<br></p>
+                        <p id="priceText">Цена: <label id="price">500</label> рублей</p>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                    <div class="product" id="21">
+                        <h3>Мафины с ванилью</h3>
+                        <img src="cacke_icons/vanmaf.jpg" height="300" width="300" id="cacke_img"> <br>
+                        <p>Мафины с ванилью (5шт)<br></p>
+                        <p id="priceText">Цена: <label id="price">600</label> рублей</p>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                    <div class="product" id="22">
+                        <h3>Обычные мафины</h3>
+                        <img src="cacke_icons/maf.jpg" height="300" width="300" id="cacke_img"> <br>
+                        <p>Обычные мафины (5шт)<br></p>
+                        <p id="priceText">Цена: <label id="price">400</label> рублей</p>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                </div>
+            </div>
+            <p id="left_bord"></p>
+            <p id="right_bord"></p>
+        </main>
+    </body>
+</html>
