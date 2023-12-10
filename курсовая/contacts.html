@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8"> <!-- Кодировка страницы-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Для совместимости с IE-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Для красивого отображения на мобильных устройствах-->
+        <title>Самые различные сладости</title> <!-- Заголовок страницы -->
+        <link rel="icon" type="image/png" href="main_icons/web_icon2.png">
+        <link rel="stylesheet" href="contacts.css">
+    </head>
+    <body>
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+        
+            <ul class="menu__box">
+              <li><a href="index.html" id="webName">
+                <img src="main_icons/web_icon2.png" width="70" height="70" id="Header_img">
+                <b id="Header_img_text">Ведьмины сладости</b>
+                </a>
+                </li>
+                <li><a href="about_us.html"><i class="item" id="first"></i>О нас</a></li>
+                <li><a href="chocolad_catalogue.html">Шоколад</a></li>
+                <li id="subsecond"><a href="marmelad_catalogue.html">Мармелад</a></li>
+                <li id="subthird"><a href="cake_catalogue.html">Кондитерские изделия</a></li>
+                <li id="subfourth"><a href="foreign_catalogue.html">Зарубежные сладости</a></li>
+                <li><a href="contacts.html"><i class="item" id="third"></i>Контакты</a></li>
+                <li><a href="cart.html">Корзина</li>
+                <li><div class="content_icons">
+                    <a href="https://www.ozon.ru/" id="left_icon"><img src="main_icons/ozon_icon.png" whidth="40" height="40"></a>
+                    <p class="vert-line"></p>
+                    <a href="https://vk.com/id607815353"><img src="main_icons/vk_icon.png" whidth="30" height="30" id="vk_icon"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <header>
+            <nav class="menu">
+                <a href="index.html" id="webName">
+                    <img src="main_icons/web_icon2.png" width="70" height="70" id="Header_img">
+                    <b id="Header_img_text">Ведьмины сладости</b>
+                </a>
+                <ul class="items">
+                    <li><a href="about_us.html"><i class="item" id="first"></i>О нас</a></li>
+                    <li class="item" id="second">Каталог
+                        <ul class="submenu">
+                            <li id="subfirst"><a href="chocolad_catalogue.html">Шоколад</a></li>
+                            <li id="subsecond"><a href="marmelad_catalogue.html">Мармелад</a></li>
+                            <li id="subthird"><a href="cake_catalogue.html">Кондитерские изделия</a></li>
+                            <li id="subfourth"><a href="foreign_catalogue.html">Зарубежные сладости</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contacts.html"><i class="item" id="third"></i>Контакты</a></li>
+                </ul>                     
+                <div class="content_icons">
+                    <a href="https://www.ozon.ru/" id="left_icon"><img src="main_icons/ozon_icon.png" whidth="40" height="40"></a>
+                    <p class="vert-line"></p>
+                    <a href="https://vk.com/id607815353"><img src="main_icons/vk_icon.png" whidth="30" height="30" id="vk_icon"></a>
+                </div>
+            </nav>
+            <a href="cart.html" id="cart_icon"><img src="cart_icon.png" width="50" height="50"></a> 
+            <input type="checkbox" id="burger">
+            <label for="burger"></label><br>       
+        </header>
+        <main>
+            <div id="cont">
+                <h1 style="font-weight: bold;">Наши контакты</h1>
+                <h4>Телефон: 8(999)999-99-99</h4>
+                <h4>Почта: dobroyasobaka@yandex.ru</h4>
+                <h4>Телеграмм: @hello1001010010</h4>
+            </div>
+            <div id="map">
+                <h1>Наш магазин расположен здесь</h1>
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acd53fbfe2a8abd4857a6cfbe4e2b8a70eddff819c4ab0f179794ac4d17852901&amp;width=676&amp;height=576&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </main>
+        <footer>
+            <p id="f1">Тех. поддержка</p>
+            <p id="f2">Наши адреса</p>
+            <p id="f3">Наши сотрудники</p>
+
+            <p id="f4">Вакансии</p>
+            <p id="f5">Руководители</p>
+
+            <p id="f6">Средняя зарплата</p>
+            <p id="f7">Часто задаваемые вопросы</p>
+            <p id="f8">Жалобы</p>
+            <p id="f9">Рейтинг</p>
+            
+            <p id="f10">Наши организации в других городах</p>
+            <p id="f11">Доставка в другие страны</p>
+            <p id="f12">События</p>
+        </footer>
+    </body>
+</html>
