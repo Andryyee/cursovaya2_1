@@ -293,6 +293,11 @@ ul{
     display: none;
 }
 @media (max-width: 1000px) {
+    #first_img{
+        width: 400px;
+        height: 300px
+    }
+
     .hamburger-menu{
         display: block;
         position: relative;
